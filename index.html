@@ -61,7 +61,9 @@
 
 		figure.half {
 			width: 50%;
-			float: left;
+			display: inline-grid;
+			grid-template-rows: 1fr;
+			
 		}
 
 		.figure-grp + .figure-grp figure {
@@ -91,6 +93,9 @@
 			max-width: 45em;
 			margin-left: auto;
 			margin-right: auto;
+			overflow-wrap: normal;
+			display: -webkit-box;
+			-webkit-line-clamp: 10;
 		}
 
 		img {
@@ -134,17 +139,17 @@
 		<div class="figure-grp">
 			<figure class="half">
 				<img src="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419914/IDMX268/office-2_hpsr6h.jpg" 
-				srcset="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419914/IDMX268/office-2_hpsr6h.jpg 300w, 
-				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_600/v1711419914/IDMX268/office-2_hpsr6h.jpg 600w, 
-				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_1200/v1711419914/IDMX268/office-2_hpsr6h.jpg 1200w"
+				srcset="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_150/v1711419914/IDMX268/office-2_hpsr6h.jpg 300w, 
+				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419914/IDMX268/office-2_hpsr6h.jpg 600w, 
+				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_600/v1711419914/IDMX268/office-2_hpsr6h.jpg 1200w"
 				width="3500" height="2334" alt="office">
 			</figure>
 
 			<figure class="half">
 				<img src="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419915/IDMX268/office-3_cwkqej.jpg" 
-				srcset="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419915/IDMX268/office-3_cwkqej.jpg 300w, 
-				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_600/v1711419915/IDMX268/office-3_cwkqej.jpg 600w, 
-				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_1200/v1711419915/IDMX268/office-3_cwkqej.jpg 1200w"
+				srcset="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_150/v1711419915/IDMX268/office-3_cwkqej.jpg 300w, 
+				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419915/IDMX268/office-3_cwkqej.jpg 600w, 
+				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_600/v1711419915/IDMX268/office-3_cwkqej.jpg 1200w"
 				width="3500" height="2334" alt="office">
 			</figure>			
 		</div> <!-- end figure-grp -->
@@ -152,17 +157,17 @@
 		<div class="figure-grp">
 			<figure class="half">
 				<img src="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419908/IDMX268/office-8_niwune.jpg" 
-				srcset="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419908/IDMX268/office-8_niwune.jpg 300w, 
-				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_600/v1711419908/IDMX268/office-8_niwune.jpg 600w, 
-				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_1200/v1711419908/IDMX268/office-8_niwune.jpg 1200w"
+				srcset="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_150/v1711419908/IDMX268/office-8_niwune.jpg 300w, 
+				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419908/IDMX268/office-8_niwune.jpg 600w, 
+				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_600/v1711419908/IDMX268/office-8_niwune.jpg 1200w"
 				width="3500" height="2334" alt="office">
 			</figure>
 
 			<figure class="half">
 				<img src="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419912/IDMX268/office-9_swf8rw.jpg" 
-				srcset="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419912/IDMX268/office-9_swf8rw.jpg 300w, 
-				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_600/v1711419912/IDMX268/office-9_swf8rw.jpg 600w, 
-				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_1200/v1711419912/IDMX268/office-9_swf8rw.jpg 1200w"
+				srcset="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_150/v1711419912/IDMX268/office-9_swf8rw.jpg 300w, 
+				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419912/IDMX268/office-9_swf8rw.jpg 600w, 
+				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_600/v1711419912/IDMX268/office-9_swf8rw.jpg 1200w"
 				width="3500" height="2334" alt="office">
 			</figure>			
 		</div> <!-- end figure-grp -->
@@ -170,17 +175,17 @@
 		<div class="figure-grp">
 			<figure class="half">
 				<img src="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419909/IDMX268/office-1_yygjb4.jpg" 
-				srcset="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419909/IDMX268/office-1_yygjb4.jpg 300w, 
-				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_600/v1711419909/IDMX268/office-1_yygjb4.jpg 600w, 
-				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_1200/v1711419909/IDMX268/office-1_yygjb4.jpg 1200w"
+				srcset="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_150/v1711419909/IDMX268/office-1_yygjb4.jpg 300w, 
+				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419909/IDMX268/office-1_yygjb4.jpg 600w, 
+				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_600/v1711419909/IDMX268/office-1_yygjb4.jpg 1200w"
 				width="3500" height="2334" alt="office">
 			</figure>
 
 			<figure class="half">
 				<img src="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419914/IDMX268/office-2_hpsr6h.jpg" 
-				srcset="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419914/IDMX268/office-2_hpsr6h.jpg 300w, 
-				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_600/v1711419914/IDMX268/office-2_hpsr6h.jpg 600w, 
-				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_1200/v1711419914/IDMX268/office-2_hpsr6h.jpg 1200w"
+				srcset="https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_150/v1711419914/IDMX268/office-2_hpsr6h.jpg 300w, 
+				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_300/v1711419914/IDMX268/office-2_hpsr6h.jpg 600w, 
+				https://res.cloudinary.com/battlebros1/image/upload/f_auto,q_auto,w_600/v1711419914/IDMX268/office-2_hpsr6h.jpg 1200w"
 				width="3500" height="2334" alt="office">
 			</figure>			
 		</div> <!-- end figure-grp -->
